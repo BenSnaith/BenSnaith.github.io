@@ -111,6 +111,32 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0.5rem;
 }
 
+.search-hide {
+    display: none;
+    position: fixed;
+    top: 3rem;
+    left: 3rem;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #09090B;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
 .search-show > a {
     margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.search-show > a:visited {
+    color: #FFFFFF;
+}
+
+.search-show > a:hover {
+    text-decoration: underline;
 }
